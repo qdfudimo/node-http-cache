@@ -1,0 +1,15 @@
+{
+    "name": "http-cache",
+    "version": "1.0.0",
+    "description": "浏览器缓存",
+    "main": "index.js",
+    "scripts": {
+        "serve:cache": "nodemon ./cache-control/serve.js",
+        "serve:expires": "nodemon ./cache-control/expires.js",
+        "serve:last": "nodemon ./last-Modified/serve.js",
+        "serve:etag": "nodemon ./etag/serve.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}
